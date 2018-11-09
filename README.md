@@ -41,9 +41,9 @@ También podríamos como ejemplo, desear saber en que carpeta estamos y subir un
 
  ```bash
  #!/bin/bash
- echo pwd
+ pwd
  cd ..
- echo pwd
+ pwd
  
  ```
 
@@ -67,14 +67,14 @@ Siguiendo el ejemplo, deseamos llamar el primer proyecto "poa1", para ello ejecu
  $ sh proyecto.sh poa1
  
  ```
-Donde sh es la instruccion en unix para ejecutar un archivo por lotes, "proyecto.sh" es el nombre del archivo por lotes creado anteriormente y "**poa1**" es el parámetro a procesar. El resultado es el siguiente:
+Donde sh es la instrucción en unix para ejecutar un archivo por lotes, "proyecto.sh" es el nombre del archivo por lotes creado anteriormente y "**poa1**" es el parámetro a procesar. El resultado es el siguiente:
 
  ```shell
 poa1/
 └── index.html
 
  ```
-Una carpeta llamada "**poa1**" y dentro de ella tres archivos vacios con las extensiones deseadas.
+Una carpeta llamada "**poa1**" y dentro de ella tres archivos vacíos con las extensiones deseadas.
 
 ## Evaluación
 

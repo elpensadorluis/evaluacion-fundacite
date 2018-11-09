@@ -122,3 +122,30 @@ el nombre del proyecto será "app-asistencia" y deberá ser pasado como parámet
   ```shell
   $ sh proyectos-mvc.sh app-rrhh
   ```
+  Y como resultado obtener:
+
+   ```shell
+   app-rrhh/
+├── app
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   └── views
+├── config
+│   ├── config.js
+│   ├── env
+│   └── express.js
+├── package.json
+├── public
+│   ├── app.js
+│   ├── config
+│   ├── controllers
+│   ├── css
+│   ├── directives
+│   ├── filters
+│   ├── img
+│   ├── services
+│   └── views
+└── server.js
+   
+   ```
